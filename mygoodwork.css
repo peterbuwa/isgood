@@ -27,7 +27,7 @@
 
 .container-two-wrapper {width:100%;font-family: 'Open Sans', sans-serif; height:70px; overflow: hidden;color:white; background-color:hsl(60, 22%, 10%) ;}
 .container-two {display: flex; align-items: center; width: 100%; height: 100%; }
-.one-item {width:33.33%; font-size: 20px; display: flex; justify-content: center; align-items: center; height: 100%;}
+.one-item {width:33.33%; font-size: 18px; display: flex; justify-content: center; align-items: center; height: 100%;}
 /* .star img {width:100%; height:100%;} */
 .star {background-image: url("./images/star.png"); background-size: contain; background-repeat:no-repeat; background-position: center;}
 
@@ -59,7 +59,7 @@
 .table-slider{height: 95%; width:100%; text-align: center;}
 .table-slider table caption {background-color: hsl(60, 22%, 10%); color:white; text-transform:uppercase; font-size: 23px;}
 .table-slider table th {background-color: hsl(60, 22%, 10%); font-size: 13px; text-align: center; padding:0 0 0 4px;}
-.table-slider table td { font-size: 13px;}
+.table-slider table td { font-size: 13px; text-transform: capitalize;}
 .table-slider table{ border-collapse: collapse; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
         /* container three start here */
@@ -192,6 +192,7 @@
 .container-thirteen-content {text-transform: uppercase; color: white; font-family: 'Open Sans', sans-serif;text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:80%; border-radius: 10px; height:100%;background-color: gray; display: flex; justify-content: center; align-items: center;}
 .container-thirteen-background-two {background-color: rgb(26, 0, 0);}
 .container-thirteen-background-one {background-color: hsl(60, 23%, 5%); }
+
                
                         /*container-fourteen-starts-here  */
 
@@ -203,6 +204,15 @@
 .container-fourteen {}
 .container-fourteen-one img, .container-fourteen-three img {width: 15px; height: 15px; border-radius:100%;}
 
+                       /* container fifteen starts here */
+.container-fifteen .container-fifteen-background-one, .container-fifteen .container-fifteen-background-two {width:100%; height:50%;}
+.container-fifteen {display: flex; padding: 10px 0;}
+.container-fifteen-background {width:30%; height:100%;}
+.container-fifteen-wrapper, .container-fifteen {height:50px; width:100%; }
+.container-fifteen-wrapper {background-image:linear-gradient(rgb(26, 0, 0), hsl(60, 23%, 5%));}
+.container-fifteen-content {text-transform: uppercase; color: white; font-family: 'Open Sans', sans-serif;text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:40%; border-radius: 10px; height:100%;background-color: gray; display: flex; justify-content: center; align-items: center;}
+.container-fifteen-background-one {background-color: rgb(26, 0, 0);} 
+ .container-fifteen-background-two {background-color: hsl(60, 23%, 5%); } 
 
 
 @keyframes rotate{
