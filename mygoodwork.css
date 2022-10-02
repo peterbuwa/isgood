@@ -57,7 +57,7 @@
 .status {display: flex; justify-content: center; align-items: center; height: 10%;}
 .table-slider table {width:100%; height:100%; }
 .table-slider{height: 95%; width:100%; text-align: center;}
-.table-slider table caption {background-color: hsl(60, 22%, 10%); color:white; text-transform:uppercase;}
+.table-slider table caption {background-color: hsl(60, 22%, 10%); color:white; text-transform:uppercase; font-size: 23px;}
 .table-slider table th {background-color: hsl(60, 22%, 10%); font-size: 13px; text-align: center; padding:0 0 0 4px;}
 .table-slider table td { font-size: 13px;}
 .table-slider table{ border-collapse: collapse; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
