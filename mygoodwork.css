@@ -27,7 +27,7 @@
 
 .container-two-wrapper {width:100%;font-family: 'Open Sans', sans-serif; height:70px; overflow: hidden;color:white; background-color:hsl(60, 22%, 10%) ;}
 .container-two {display: flex; align-items: center; width: 100%; height: 100%; }
-.one-item {width:33.33%; font-size: 13px; display: flex; justify-content: center; align-items: center; height: 100%;}
+.one-item {width:33.33%; font-size: 20px; display: flex; justify-content: center; align-items: center; height: 100%;}
 /* .star img {width:100%; height:100%;} */
 .star {background-image: url("./images/star.png"); background-size: contain; background-repeat:no-repeat; background-position: center;}
 
@@ -132,7 +132,7 @@
 
 .container-eight-content-one {width:5%;}
 .container-eight-wrapper, .container-eight-container   {min-height: 100px; width:100%; padding: 0 0 20px 0; background-color: rgb(26, 0, 0);}
-
+.dif-pad h3{padding:0 5px;}
 .container-eight-content-two {width:90%; }
 .container-eight-container {display: flex;}
 .container-eight-content-two {display: flex; background-color: gold; color: black; border-collapse: collapse; border-right: 3px solid gold;}
