@@ -133,7 +133,7 @@ var x = setInterval(() => {
 }, 1000);
 
 
-var countDownDates = new Date("July 1, 2022 15:37:25").getTime();
+var countDownDates = new Date("oct 5, 2022 15:37:25").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDates - now;

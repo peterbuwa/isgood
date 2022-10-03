@@ -125,7 +125,7 @@
 .container-seven-table th {background-color: blanchedalmond; color:black;}
 .container-seven-table td {text-align: center; text-transform: capitalize;}
 .container-seven-table tr, .container-seven-table td  {border:1px solid black; padding:5px 0;}
-.container-seven-table tr .rotate {margin: auto;width: 10px; height: 10px;padding: 2px; border-radius: 50%;border-style: dotted; border-width: 0 3px 2px 2px; border-color: gold;animation: rotate 0.9s linear infinite}
+.container-seven-table tr .rotate, .container-fifteen-free-table tr .rotate {margin: auto;width: 10px; height: 10px;padding: 2px; border-radius: 50%;border-style: dotted; border-width: 0 3px 2px 2px; border-color: gold;animation: rotate 0.9s linear infinite}
 #time-out, #time-out-one, #time-out-two, #time-out-three {font-size: 8px;}
 
             /* container eight starts here */
@@ -192,6 +192,7 @@
 .container-thirteen-content {text-transform: uppercase; color: white; font-family: 'Open Sans', sans-serif;text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:80%; border-radius: 10px; height:100%;background-color: gray; display: flex; justify-content: center; align-items: center;}
 .container-thirteen-background-two {background-color: rgb(26, 0, 0);}
 .container-thirteen-background-one {background-color: hsl(60, 23%, 5%); }
+.container-thirteen-content h2 {font-size: 22px;}
 
                
                         /*container-fourteen-starts-here  */
@@ -207,6 +208,7 @@
                        /* container fifteen starts here */
 .container-fifteen .container-fifteen-background-one, .container-fifteen .container-fifteen-background-two {width:100%; height:50%;}
 .container-fifteen {display: flex; padding: 10px 0;}
+.container-fifteen-content h2 {font-size:22px;}
 .container-fifteen-background {width:30%; height:100%;}
 .container-fifteen-wrapper, .container-fifteen {height:50px; width:100%; }
 .container-fifteen-wrapper {background-image:linear-gradient(rgb(26, 0, 0), hsl(60, 23%, 5%));}
@@ -214,12 +216,14 @@
 .container-fifteen-background-one {background-color: rgb(26, 0, 0);} 
  .container-fifteen-background-two {background-color: hsl(60, 23%, 5%); } 
  .container-fifteen-table-wrapper {background-color: hsl(60, 23%, 5%); color:white;}
- .free-tips-container table {width:100%; font-family: 'Open Sans', sans-serif; }
- .free-tips-container table caption {text-transform: capitalize;}
- .free-tips-container table th {text-transform: uppercase; background-color: #11a607;}
- .free-tips-container table td {text-transform: capitalize; background-color: #525252; color:white;}
-
- .free-tips-container table, .free-tips-container table td, .free-tips-container table th {border:1px solid white; border-collapse: collapse;}
+ .free-tips-container table, .container-fifteen-free-table table{width:100%; font-family: 'Open Sans', sans-serif; text-align: center;}
+ .free-tips-container table caption, .container-fifteen-free-table table caption {text-transform: capitalize;}
+ .free-tips-container table th, .container-fifteen-free-table th {text-transform: uppercase; background-color: blanchedalmond; color:black; font-size: 12px; padding:3px 0; font-weight: bold;}
+ .free-tips-container table td, .container-fifteen-free-table td {text-transform: capitalize; background-color:black; color:white; font-size: 12px;  padding:3px 0;}
+.free-tips-container {padding:10px 0;}
+.container-fifteen-free-container {background-color: hsl(60, 23%, 5%); color:white;}
+.free-tips-container table .status-won {background-color: blanchedalmond; color: green; font-weight: bold;}
+ .free-tips-container table, .free-tips-container table td, .free-tips-container table th {border:2px solid #10100a; border-collapse: collapse;}
 
 @keyframes rotate{
 
