@@ -264,7 +264,7 @@ const ticketAchieved = [
 const ticketAchievedOne = [
     {
         home: "liverpool",
-        away: "chelsea",
+        away: "cheresea",
         pick: "1",
         odd: "2.00",
         result: "2-0",
@@ -278,7 +278,7 @@ const ticketAchievedOne = [
         odd: "2.00",
         result: "2-0",
         status: "won",
-        date: "10-12-2022",
+        date: "11-12-2022",
     },   
     {
         home: "liverpool",
@@ -287,7 +287,7 @@ const ticketAchievedOne = [
         odd: "2.00",
         result: "2-0",
         status: "won",
-        date: "10-12-2022",
+        date: "12-12-2022",
     },
     {    
         home: "liverpool",
@@ -440,3 +440,110 @@ viewMore.addEventListener("click", ()=>{
     containerTwelve.style.display = "block";
     containerElevenWrapper.style.display = "none";
 })
+
+
+const freeTicket = [
+    {
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },  
+    { 
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },   
+    {
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },
+    {    
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },
+    {
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },
+    {   
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    }
+];
+
+let freeTicketDisplay = freeTicket.map((table)=>{
+    return`
+            <div class="free-tips-container">
+                <table>
+                    <caption>total 0dd: 3.50</caption>
+                    <tr>
+                        <th>date</th>
+                        <th>home</th>
+                        <th>away</th>
+                        <th>pick</th>
+                        <th>odd</th>
+                        <th>result</th>
+                        <th>status</th>
+                    </tr>
+                    <tr>
+                        <td>${table.date}</td>
+                        <td>${table.home}</td>
+                        <td>${table.away}</td>
+                        <td>${table.pick}</td>
+                        <td>${table.odd}</td>
+                        <td>${table.result}</td>
+                        <td class="status-won">${table.status}</td>
+                    </tr>
+                    <tr>
+                        <td>${table.date}</td>
+                        <td>${table.home}</td>
+                        <td>${table.away}</td>
+                        <td>${table.pick}</td>
+                        <td>${table.odd}</td>
+                        <td>${table.result}</td>
+                        <td class="status-won">${table.status}</td>
+                    </tr>
+                    <tr>
+                        <td>${table.date}</td>
+                        <td>${table.home}</td>
+                        <td>${table.away}</td>
+                        <td>${table.pick}</td>
+                        <td>${table.odd}</td>
+                        <td>${table.result}</td>
+                        <td class="status-won">${table.status}</td>
+                    </tr>
+                </table>
+            </div>
+    `
+})
+
+let freeTicketDisplayTips = document.querySelector(".container-fifteen-table-wrapper");
+freeTicketDisplayTips.innerHTML = freeTicketDisplay.join(" ");
