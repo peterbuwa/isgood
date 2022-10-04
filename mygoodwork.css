@@ -101,7 +101,7 @@
 
 .container-six-wrapper {min-height:70px;width: 100%;padding:30px 0 0 0; display: flex; background-image:linear-gradient( rgb(26, 0, 0),  hsl(60, 23%, 5%)); color:white;font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;;}
 .container-six-background {width:20%; height: 100%;}
-.container-six-content {font-size: 17px; width:60%;height:100%;display: flex;justify-content: center; align-items: center; background-color: gray; border-radius: 10px; text-align: center;}
+.container-six-content {background-image: linear-gradient(black,black, gray);font-family: 'Courier New', Courier, monospace; font-size: 18px; width:60%;height:100%;display: flex;justify-content: center; align-items: center; background-color: gray; border-radius: 10px; text-align: center;}
 .container-six-content h2 {width:100%;}
 .container-six-wrapper-content {width:100%; display: flex;}
 .container-six-first-background {width:100%; height:50%; background-color: rgb(26, 0, 0); }
@@ -154,9 +154,9 @@
 .container-nine-wrapper, .container-nine {height:50px;width:100%; }
 .container-nine-wrapper {background-image:linear-gradient( rgb(26, 0, 0),  hsl(60, 23%, 5%));}
 .container-nine-background {width:10%; height:100%;}
-.container-nine-content {color: white;font-family: 'Courier New', Courier, monospace;text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:80%; border-radius: 10px; height:100%; background-image: linear-gradient(black,black, gray);; display: flex; justify-content: center; align-items: center;}
+.container-nine-content {color: white;font-family: 'Courier New', Courier, monospace; text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:80%; border-radius: 10px; height:100%; background-image: linear-gradient(black,black, gray);; display: flex; justify-content: center; align-items: center;}
 .container-nine {display: flex;}
-.container-nine-content h2 {font-size: 25px;}
+.container-nine-content h2 {font-size: 27px;}
 .container-nine .container-nine-background-one, .container-nine .container-nine-background-two {width:100%; height:50%;}
 .container-nine-background-one {background-color: rgb(26, 0, 0);}
 .container-nine-background-two {background-color: hsl(60, 23%, 5%);}
@@ -189,15 +189,15 @@
 .container-thirteen-background {width:10%; height:100%;}
 .container-thirteen-wrapper, .container-thirteen {height:50px;width:100%; }
 .container-thirteen-wrapper {background-image:linear-gradient(hsl(60, 23%, 5%), rgb(26, 0, 0));}
-.container-thirteen-content {text-transform: uppercase; color: white; font-family: 'Open Sans', sans-serif;text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:80%; border-radius: 10px; height:100%;background-color: gray; display: flex; justify-content: center; align-items: center;}
+.container-thirteen-content {padding: 18px 5px; background-image: linear-gradient(black,black, gray); text-transform: uppercase; color: white; font-family: 'Open Sans', sans-serif;text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:80%; border-radius: 10px; height:100%;background-color: gray; display: flex; justify-content: center; align-items: center;}
 .container-thirteen-background-two {background-color: rgb(26, 0, 0);}
 .container-thirteen-background-one {background-color: hsl(60, 23%, 5%); }
-.container-thirteen-content h2 {font-size: 22px;}
+.container-thirteen-content h2 {font-size: 28px; font-family: 'Courier New', Courier, monospace; }
 
                
                         /*container-fourteen-starts-here  */
 
-.container-fourteen-wrapper, .container-fourteen {padding: 3px 0; display: flex;justify-content: center; background-color: rgb(26, 0, 0); min-height:20px; width: 100%;}
+.container-fourteen-wrapper, .container-fourteen {padding: 10px 0; display: flex;justify-content: center; background-color: rgb(26, 0, 0); min-height:20px; width: 100%;}
 .container-fourteen-one, .container-fourteen-three { width:10%; display: flex; justify-content: center; align-items: center;}
 .container-fourteen-two {width:80%;}
 .container-fourteen-two img {width:100%; height:100%;}
@@ -211,11 +211,11 @@
                        /* container fifteen starts here */
 .container-fifteen .container-fifteen-background-one, .container-fifteen .container-fifteen-background-two {width:100%; height:50%;}
 .container-fifteen {display: flex; padding: 10px 0;}
-.container-fifteen-content h2 {font-size:22px;}
+.container-fifteen-content h2 {font-size:24px; font-family: 'Courier New', Courier, monospace;}
 .container-fifteen-background {width:30%; height:100%;}
 .container-fifteen-wrapper, .container-fifteen {height:50px; width:100%; }
 .container-fifteen-wrapper {background-image:linear-gradient(rgb(26, 0, 0), hsl(60, 23%, 5%));}
-.container-fifteen-content {text-transform: uppercase; color: white; font-family: 'Open Sans', sans-serif;text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:40%; border-radius: 10px; height:100%;background-color: gray; display: flex; justify-content: center; align-items: center;}
+.container-fifteen-content { text-transform: uppercase; color: white; font-family: 'Open Sans', sans-serif;text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue; width:40%; border-radius: 10px; height:100%; background-image: linear-gradient(black,black, gray); display: flex; justify-content: center; align-items: center;}
 .container-fifteen-background-one {background-color: rgb(26, 0, 0);} 
  .container-fifteen-background-two {background-color: hsl(60, 23%, 5%); } 
  .container-fifteen-table-wrapper {background-color: hsl(60, 23%, 5%); color:white;}
@@ -224,7 +224,7 @@
  .free-tips-container table th, .container-fifteen-free-table th, .moreticketdisplay table th {text-transform: uppercase; background-color: blanchedalmond; color:black; font-size: 12px; padding:3px 0; font-weight: bold;}
  .free-tips-container table td, .container-fifteen-free-table table td, .moreticketdisplay table td {text-transform: capitalize; background-color:black; color:white; font-size: 12px;  padding:3px 0;}
 .free-tips-container {padding:10px 0;}
-.container-fifteen-free-container {background-color: hsl(60, 23%, 5%); color:white;}
+.container-fifteen-free-container {background-color: hsl(60, 23%, 5%); color:white; padding:17px 0;}
 .free-tips-container table .status-won, .moreticketdisplay .status-won {background-color: blanchedalmond; color: green; font-weight: bold;}
  .free-tips-container table, .free-tips-container table td, .free-tips-container table th {border:2px solid #10100a; border-collapse: collapse;}
 .container-fifteen-viewmore-wrapper .freeviewmore {opacity: 0.7; border-radius: 20px; cursor: pointer; transition: 0.5s;color: white;font-size: 12px;width: 80px; text-align: right; text-align: center; background-color: grey; text-transform: capitalize;font-family: 'Courier New', Courier, monospace;}
