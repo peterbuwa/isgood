@@ -9,6 +9,15 @@ let left = document.querySelector(".left-icon");
 let right = document.querySelector(".right-icon");
  let viewMore = document.querySelector(".view-more")
  let containerElevenWrapper = document.querySelector(".container-eleven-wrapper")
+ let freeViewMore = document.querySelector(".freeviewmore")
+ let containerFifteenViewmoreWrapper = document.querySelector(".container-fifteen-viewmore-wrapper");
+ let freeViewMoreTips = document.querySelector(".free-view-more-ticket")
+
+ freeViewMore.addEventListener("click", ()=>{
+     freeViewMoreTips.style.display = "block";
+    containerFifteenViewmoreWrapper.style.display = "none";
+    
+ })
 
 
 bars.addEventListener("click", function () {
@@ -547,3 +556,110 @@ let freeTicketDisplay = freeTicket.map((table)=>{
 
 let freeTicketDisplayTips = document.querySelector(".container-fifteen-table-wrapper");
 freeTicketDisplayTips.innerHTML = freeTicketDisplay.join(" ");
+
+
+const moreFreeTicket = [
+    {
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },  
+    { 
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },   
+    {
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },
+    {    
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },
+    {
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    },
+    {   
+        home: "liverpool",
+        away: "chelsea",
+        pick: "1",
+        odd: "2.00",
+        result: "2-0",
+        status: "won",
+        date: "10-12-2022",
+    }
+];
+
+let moreTicketDisplay = moreFreeTicket.map((table)=>{
+    return `
+            <div class="moreticketdisplay">
+                <table>
+                <caption>total 0dd: 3.50</caption>
+                <tr>
+                    <th>date</th>
+                    <th>home</th>
+                    <th>away</th>
+                    <th>pick</th>
+                    <th>odd</th>
+                    <th>result</th>
+                    <th>status</th>
+                </tr>
+                <tr>
+                    <td>${table.date}</td>
+                    <td>${table.home}</td>
+                    <td>${table.away}</td>
+                    <td>${table.pick}</td>
+                    <td>${table.odd}</td>
+                    <td>${table.result}</td>
+                    <td class="status-won">${table.status}</td>
+                </tr>
+                <tr>
+                    <td>${table.date}</td>
+                    <td>${table.home}</td>
+                    <td>${table.away}</td>
+                    <td>${table.pick}</td>
+                    <td>${table.odd}</td>
+                    <td>${table.result}</td>
+                    <td class="status-won">${table.status}</td>
+                </tr>
+                <tr>
+                    <td>${table.date}</td>
+                    <td>${table.home}</td>
+                    <td>${table.away}</td>
+                    <td>${table.pick}</td>
+                    <td>${table.odd}</td>
+                    <td>${table.result}</td>
+                    <td class="status-won">${table.status}</td>
+                </tr>
+                </table>
+            </div>
+    `
+})
+
+let freeViewMoreTicket = document.querySelector(".free-view-more-ticket")
+freeViewMoreTicket.innerHTML = moreTicketDisplay.join(" ")
