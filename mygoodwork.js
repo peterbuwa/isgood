@@ -13,11 +13,7 @@ let right = document.querySelector(".right-icon");
  let containerFifteenViewmoreWrapper = document.querySelector(".container-fifteen-viewmore-wrapper");
  let freeViewMoreTips = document.querySelector(".free-view-more-ticket")
 
- freeViewMore.addEventListener("click", ()=>{
-     freeViewMoreTips.style.display = "block";
-    containerFifteenViewmoreWrapper.style.display = "none";
-    
- })
+ 
 
 
 bars.addEventListener("click", function () {
@@ -437,6 +433,7 @@ let tableDateOne = ticketAchievedOne.map((table)=>{
             <td class="status-won">${table.status}</td>
         </tr>
     </table>
+    
 </div>
     `
 })
@@ -617,7 +614,9 @@ const moreFreeTicket = [
 
 let moreTicketDisplay = moreFreeTicket.map((table)=>{
     return `
+    
             <div class="moreticketdisplay">
+            
                 <table>
                 <caption>total 0dd: 3.50</caption>
                 <tr>
@@ -657,9 +656,17 @@ let moreTicketDisplay = moreFreeTicket.map((table)=>{
                     <td class="status-won">${table.status}</td>
                 </tr>
                 </table>
+            
             </div>
     `
 })
 
 let freeViewMoreTicket = document.querySelector(".free-view-more-ticket")
 freeViewMoreTicket.innerHTML = moreTicketDisplay.join(" ")
+
+
+freeViewMore.addEventListener("click", ()=>{
+    freeViewMoreTips.style.display = "block";
+   containerFifteenViewmoreWrapper.style.display = "none";
+   
+})

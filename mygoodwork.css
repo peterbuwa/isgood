@@ -203,10 +203,10 @@
 .container-fourteen-two img {width:100%; height:100%;}
 .fourteen-content {height:100%;}
 .container-fourteen {}
-.container-fourteen-content-one {background-color: rgb(26, 0, 0); padding:0 0 10px 0;}
+.container-fourteen-content-one {background-color: rgb(26, 0, 0); padding:40px 0 10px 0;}
 .container-fourteen-content-one-header {display: flex; justify-content: center; padding:10px 0 20px 0;}
 .container-fourteen-one img, .container-fourteen-three img {width: 15px; height: 15px; border-radius:100%;}
-.container-fourteen-content-one-header h4 {color:white; background-image: linear-gradient(black,black, gray); border-radius:10px; text-align: center; text-transform: uppercase; font-family: 'Courier New', Courier, monospace; width:150px;}
+.container-fourteen-content-one-header h4 {color:yellow; background-image: linear-gradient(black,black, gray); border-radius:10px; text-align: center; text-transform: uppercase; font-family: 'Courier New', Courier, monospace; width:150px;}
 
                        /* container fifteen starts here */
 .container-fifteen .container-fifteen-background-one, .container-fifteen .container-fifteen-background-two {width:100%; height:50%;}
@@ -302,6 +302,10 @@
 
     .ticket-offer-image-container {width:80%; }
 
+                /* container six starts here */
+
+.container-six-content h2 {letter-spacing: 2px;}
+
 
             /* container seven start here */
 
@@ -313,6 +317,10 @@
 
      .container-eight-content-one {width:10%;}
      .container-eight-content-two {width:80%; }
+
+            /* container nine starts here */
+
+.container-nine-content h2 {letter-spacing: 2px;}
     
       /* container-ten-and-container-twelve-starts-here */
 
@@ -322,12 +330,32 @@
                 /* container thirteen starts here */
 
 .container-thirteen-content {
-    width: 60%;
+    width: 68%;
  }
     
 .container-thirteen-background {
- width: 20%;
+ width: 16%;
 }
+
+.container-thirteen-content h2 {letter-spacing: 2px;}
+
+                /* container fourteen starts here */
+
+.container-fourteen-content-one-header h4 {width: 200px; letter-spacing: 2px; font-size: 23px;}
+
+            /* container fifteen starts here */
+
+.container-fifteen-content h2 {font-size: 28px; letter-spacing: 2px;}
+
+.container-fifteen-content {width: 46%;}
+.container-fifteen-background {width: 27%;}
+
+            /* free tips starts here */
+
+.free-tips-container table, .container-fifteen-free-table table, .moreticketdisplay table { width: 90%; margin: auto;}
+.free-tips-container table td, .container-fifteen-free-table table td, .moreticketdisplay table td {font-size: 14px; padding: 5px 0; }
+.free-tips-container table th, .container-fifteen-free-table th, .moreticketdisplay table th {font-size: 12px; padding: 5px 0;}
+
 
 }
 
@@ -357,7 +385,7 @@
 
     /* container five starts here */
 
-    .container-five-content {width:90%;}
+    .container-five-content {width:80%;}
 
 
     /* container six starts here */
@@ -368,6 +396,7 @@
                     /* ticket offer start here */
 
 .ticket-offer-image-container {width:70%; }
+.ticket-offer-container { width: 80%;  }
 
             /* container seven start here */
 
@@ -388,7 +417,7 @@
 
 
 .container-thirteen-content {
-                width: 46%;
+                width: 50%;
               }
 
 .container-thirteen-background {
@@ -398,7 +427,8 @@
                 /* container-fourteen-starts-here */
 
 .container-fourteen {width:90%;}
-
+.container-fourteen-content-one-image {width: 80%;}
+.container-fourteen-content-one-image-container {display: flex;justify-content: center;}
            
 
 }
@@ -427,7 +457,8 @@
          /* container six starts here */
 
     .container-six-background {width:30%; }
-    .container-six-content {width:40%;}
+    .container-six-content {width:40%; font-size: 20px;}
+    
 
         /* ticket offer start here */
 
@@ -442,6 +473,22 @@
 
 .container-eight-content-one {width:20%;}
 .container-eight-content-two {width:60%; }
+
+            /* container nine starts here */
+
+.container-nine-content h2 {font-size: 30px;}
+
+            /* container thirteen starts here */
+
+.container-thirteen-content h2 {font-size: 30px; }
+
+            /* container fourteen starts here */
+
+.container-fourteen-content-one-image {width: 70%; }
+
+            /* container fifteen starts here */
+
+.container-fifteen-content h2 {font-size: 30px; }
 
 }
 
@@ -484,6 +531,10 @@
     .ticket-offer-image-container {width:50%; }
     .ticket-offer-container {width:70%;}
 
+    /* container six starts here */
+
+.container-six-content {font-size: 23px;}
+
      /* container seven start here */
 
 .container-seven-content{width:70%;}
@@ -493,16 +544,29 @@
 .container-eight-content-one {width:25%;}
 .container-eight-content-two {width:50%; }
 
+            /* container nine starts here */
+
+.container-nine-content h2 {font-size: 35px;}
+
 
             /* container ten starts here */
 
 .container-ten-wrapper, .container-twelve{display: flex; flex-wrap: wrap; justify-content: space-between; width:100%;}
 .container-ten {width: 43%; margin: auto; }
 .container-ten table th {padding: 3px; font-size: 12px;}
-.container-ten table td, .container-twelve-wrapper .container-ten table td {
-    font-size: 11px;
-  }
+.container-ten table td, .container-twelve-wrapper .container-ten table td {font-size: 11px;}
 
+            /* container thirteen starts here */
+
+.container-thirteen-content h2 { font-size: 35px; }
+
+                /* free tips container */
+ .free-tips-container table, .container-fifteen-free-table table, .moreticketdisplay table {width: 75%;}
+ .container-fourteen-content-one-header { padding: 50px; }
+
+                /* container fifteen starts here */
+
+.container-fifteen-content h2 {font-size: 35px;}
 
 }
 
