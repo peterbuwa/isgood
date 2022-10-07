@@ -99,7 +99,7 @@
 
                 /* .container six starts here */
 
-.container-six-wrapper {min-height:70px;width: 100%;padding:30px 0 0 0; display: flex; background-image:linear-gradient( rgb(26, 0, 0),  hsl(60, 23%, 5%)); color:white;font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;;}
+.container-six-wrapper {min-height:70px;width: 100%;padding:30px 0 0 0; display: flex; background-image:linear-gradient( rgb(26, 0, 0),  hsl(60, 23%, 5%)); color:yellowgreen;font-family: Georgia, 'Times New Roman', Times, serif; text-shadow: -1px 0 red, 0 1px black, 1px 0 green, 0 -1px blue;;}
 .container-six-background {width:20%; height: 100%;}
 .container-six-content {background-image: linear-gradient(black,black, gray);font-family: 'Courier New', Courier, monospace; font-size: 18px; width:60%;height:100%;display: flex;justify-content: center; align-items: center; background-color: gray; border-radius: 10px; text-align: center;}
 .container-six-content h2 {width:100%;}
