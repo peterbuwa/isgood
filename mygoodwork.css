@@ -40,8 +40,8 @@
 .slide-one {width:100%; height:20%;border-bottom: 3px dotted grey;  background-color:hsl(60, 22%, 10%) ; border-bottom-left-radius:30px ; }
 .slide-two {width:100%; height:20%;border-bottom: 3px dotted grey;  background-color:hsl(60, 22%, 10%) ; border-bottom-right-radius:30px ; }
 .slider-container, .slider-container-content-one {width:100%; height:100%;}
-.table-slider table{border:1px solid white;}
-.slider-container-content .left-icon, .slider-container-content .right-icon {cursor:pointer; font-size: 30px; position: absolute;top:40%; z-index: 2; color: rgba(gray, gray, white, 0.5);}
+.slider-span {background-color:green;  text-transform: uppercase; padding:0 10px; margin:0; font-size: 14px; color: blanchedalmond;}
+.slider-container-content .left-icon, .slider-container-content .right-icon {cursor:pointer; font-size: 30px; position: absolute;top:40%; z-index: 2; color:gray;}
 /* .slider-container-content .left-icon:hover {box-shadow: 1px 1px 1px rgb(32, 28, 28);} */
 .slider-container-content-one {position: relative;}
 /* .slider-container-content .right-icon:hover{box-shadow: 1px 1px 1px rgb(32, 28, 28);} */
@@ -49,18 +49,19 @@
 .slider-container-content .left-icon {left:20px;}
 .status {width:100%; height:10%; background-color:hsl(60, 22%, 10%) ; color: aliceblue;}
 .table-container {display: flex; width: 100%; height: 90%; overflow: hidden;}
-.won {color:green;}
+.table-slider table .won {color:green; background-color: blanchedalmond;}
 .won-ticket-left, .won-ticket-right {font-size:10px; width:5%;height:100%;  background-color:hsl(60, 22%, 10%) ; color:white; writing-mode: vertical-rl;}
 .table-slider-container {width:90%; height:100%; background-color:grey; color:white; overflow: hidden;}
 .won-ticket-left {transform: rotate(180deg); text-align: center; display: flex;justify-content: center; align-items: center; text-transform: capitalize; }
 .won-ticket-right {transform: rotate(180deg); text-align: center; display: flex;justify-content: center; align-items: center; text-transform: capitalize; }
-.status {display: flex; justify-content: center; align-items: center; height: 10%; font-size: 16px;}
+.status {display: flex; justify-content: center; align-items: center; height: 10%; font-size: 15px;}
 .table-slider table {width:100%; height:100%; }
 .table-slider{height: 95%; width:100%; text-align: center;}
 .table-slider table caption {background-color: hsl(60, 22%, 10%); color:white; text-transform:uppercase; font-size: 14px;}
-.table-slider table th {background-color: hsl(60, 22%, 10%); font-size: 13px; text-align: center; padding:0 0 0 4px;}
+.table-slider table th {background-color: blanchedalmond; color:black; font-size: 13px; text-align: center; padding:0 0 0 4px;}
 .table-slider table td { font-size: 13px; text-transform: capitalize;}
-.table-slider table{ border-collapse: collapse; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
+.table-slider table tr, .table-slider table td {border:1px solid black; background-color: #10100a; color: white;}
+.table-slider table{border:1px solid gray; border-collapse: collapse; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
         /* container three start here */
 
@@ -370,7 +371,7 @@
     .slider-container-content-one {width:70%;}
     .slide-one {border-bottom-left-radius: 80px; }
     .slide-two {border-bottom-right-radius: 80px;}
-
+    .slider-span {font-size: 19px;}
     .next-ticket { text-transform: capitalize; animation: movethree 15s linear infinite;}
 
     /* container four starts here */
@@ -427,7 +428,7 @@
                 /* container-fourteen-starts-here */
 
 .container-fourteen {width:90%;}
-.container-fourteen-content-one-image {width: 80%;}
+.container-fourteen-content-one-image {width: 95%;}
 .container-fourteen-content-one-image-container {display: flex;justify-content: center;}
            
 
@@ -435,6 +436,10 @@
 
 
 @media screen and (min-width:620px){
+
+.slider-container-content .left-icon {left: 30px; font-size: 45px;}
+.slider-container-content .right-icon {right: 30px; font-size: 45px;}
+
         /* container two start here */
 
         .container-two-wrapper {padding: 60px 0 70px 0;}
@@ -484,11 +489,13 @@
 
             /* container fourteen starts here */
 
-.container-fourteen-content-one-image {width: 70%; }
+/* .container-fourteen-content-one-image {width: 70%; } */
+.container-fourteen-content-one-image a {height: 120px; }
 
             /* container fifteen starts here */
 
 .container-fifteen-content h2 {font-size: 30px; }
+.container-fifteen-viewmore-wrapper {padding: 7px 15px;}
 
 }
 
@@ -497,12 +504,13 @@
     .hamburger {display: none;}
     .domain-name {width:100%;}
     
-    .menu-overall {display: flex; justify-content: center;background-color:rgb(26, 0, 0) ;}
+    
+    .menu-overall {display: flex; justify-content: center;background-color:#151515 ;}
     .menu-container {height: 100%; width:70%; display: block;}
     .main-container{display: flex; width: 90%;}
     .menu-unordered-list li {padding: 15px 3px;}
     .menu-container{background-color:inherit ;}
-    .menu-unordered-list li a {font-size: 14px; height: 100%;}
+    .menu-unordered-list li a {font-size: 13px; height: 100%;}
     .container1 {padding: 0}
 
     /* container two start */
@@ -560,6 +568,11 @@
 
 .container-thirteen-content h2 { font-size: 35px; }
 
+            /* container fourteen starts here */
+
+/* .container-fourteen-content-one-image { width: 65%;} */
+.container-fourteen-content-one-image a { height: 130px;}
+
                 /* free tips container */
  .free-tips-container table, .container-fifteen-free-table table, .moreticketdisplay table {width: 75%;}
  .container-fourteen-content-one-header { padding: 50px; }
@@ -567,12 +580,13 @@
                 /* container fifteen starts here */
 
 .container-fifteen-content h2 {font-size: 35px;}
+.container-fifteen-viewmore-wrapper {padding: 7px 75px;}
 
 }
 
 @media screen and (min-width:820px){
     .main-container{display: flex; width: 90%;}
-    .menu-unordered-list li a {font-size: 16px;}
+    .menu-unordered-list li a {font-size: 14px;}
     .domain-title h2 {font-size: 30px;}
     /* .menu-unordered-list li {padding: 19px 3px;} */
 
@@ -603,10 +617,14 @@
     .container-six-background {width:30%; }
     .container-six-content {width:40%;}
 
+
             /* ticket offer start here */
 
     
     .ticket-offer-container {width:60%;}
+    
+
+.ticket-offer-container {padding: 30px 0;}
 
      /* container seven start here */
 
@@ -625,11 +643,23 @@
             font-size: 12px;
           }
 
+            /* container fourteen starts here */
+
+.container-fourteen-content-one-image a {height: 150px;}
+.container-fourteen {width: 80%;}
+
+                /* container fifteen starts here */
+ .container-fifteen-background {width:32%; }
+ .container-fifteen-content {width:38%;}
+
 }
 
 @media screen and (min-width:920px){
+
+    .slider-container-content .left-icon {left: 40px; font-size: 45px;}
+.slider-container-content .right-icon {right: 40px; font-size: 45px;}
     .main-container{display: flex; width: 80%;}
-    .menu-unordered-list li a {font-size: 16px;}
+    
     .domain-title h2 {font-size: 30px;}
     /* .menu-unordered-list li {padding: 19px 3px;} */
 
@@ -652,9 +682,34 @@
 
 .container-eight-content-one {width:30%;}
 .container-eight-content-two {width:40%; }
+
+                    /* container nine starts here */
+
+.container-nine-content {width: 50%;}
+.container-nine-background {width: 25%;}
+
+                    /* container thirteen starts here */
+
+.container-thirteen-content { width: 44%; }
+.container-thirteen-background { width: 28%;}
+
+                        /* container fourteen starts here */
+
+.container-fourteen-content-one-image a {height: 170px;}
+.container-fourteen {width: 70%;}
+.container-fourteen-content-one-image {width: 90%;}
+
+            /* container fifteen starts here */
+
+.free-tips-container table, .container-fifteen-free-table table, .moreticketdisplay table {width: 70%;}
+.container-fifteen-viewmore-wrapper {padding: 7px 120px;}
+
 }
 
 @media screen and (min-width:1020px){
+
+    .slider-first-container, .slider-last-container {width: 20%;}
+    .slider-container-content-one {width: 60%;}
     
             /* container three starts here */
 
@@ -680,6 +735,30 @@
 .container-eight-content-one {width:32%;}
 .container-eight-content-two {width:36%; }
 
+/* container nine starts here */
+
+.container-nine-content {width: 40%;}
+.container-nine-background {width: 30%;}
+
+    /* container thirteen starts here */
+
+.container-thirteen-content { width: 36%; }
+.container-thirteen-background { width: 32%;}
+
+        /* container fourteen starts here */
+
+.container-fourteen-content-one-image a {height: 170px;}
+.container-fourteen {width: 65%;}
+.container-fourteen-content-one-image {width: 75%;}
+
+
+                /* container fifteen starts here */
+.container-fifteen-background {width:36%; }
+.container-fifteen-content {width:28%;}
+.free-tips-container table, .container-fifteen-free-table table, .moreticketdisplay table {width: 65%;}
+.container-fifteen-viewmore-wrapper {padding: 7px 170px;}
+
+
 }
 @media screen and (min-width:1120px){
     .slider-container-wrapper { height: 400px;}
@@ -700,14 +779,44 @@
 .container-eight-content-one {width:35%;}
 .container-eight-content-two {width:30%; }
 
+/* container fourteen starts here */
+
+.container-fourteen-content-one-image a {height: 190px;}
+.container-fourteen {width: 60%;}
+.container-fourteen-content-one-image {width: 70%;}
+
+        /* container fifteen starts here */
+
+        .container-fifteen-viewmore-wrapper {padding: 7px 190px;}
+
+}
+
+@media screen and (min-width:1220px) {
+    /* container fourteen starts here */
+
+.container-fourteen-content-one-image a {height: 210px;}
+
+    /* container fifteen starts here */
+
+.free-tips-container table, .container-fifteen-free-table table, .moreticketdisplay table {width:55%;}
+.container-fifteen-viewmore-wrapper {padding: 7px 270px;}
+
 }
 @media screen and (min-width:1320px){
     .slider-container-wrapper { height: 400px;}
     .won-ticket-left, .won-ticket-right {font-size: 15px;}
+    .slider-container-content .left-icon {left: 50px; font-size: 45px;}
+.slider-container-content .right-icon {right: 50px; font-size: 45px;}
 
     /* container three starts here */
 
     .container-three-background-one {width: 35%; height: 100%; }
     .container-three-background-two {width: 30%;}
     .next-ticket { text-transform: capitalize; animation: movefour 15s linear infinite;}
+
+    /* container fifteen starts here */
+
+
+
+
 }
