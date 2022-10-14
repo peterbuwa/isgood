@@ -211,7 +211,7 @@ var x = setInterval(() => {
 
 const ticketAchieved = [
     {
-        home: "liverpool",
+        home: "Kortrijk",
         away: "chelsea",
         pick: "1",
         odd: "2.00",
@@ -256,13 +256,13 @@ const ticketAchieved = [
         date: "10-12-2022",
     },
     {   
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
+        homeTwelve: "Kortrijk",
+        away: "Antwerp",
+        pick: "1X",
+        odd: "2.07",
+        result: "2-1",
         status: "won",
-        date: "10-12-2022",
+        date: "02-09-2022",
     }
 ];
 
@@ -304,8 +304,8 @@ const ticketAchievedOne = [
         date: "10-12-2022",
     },
     {
-        home: "liverpool",
-        away: "chelsea",
+        home: "rrriverpool",
+        away: "fffhelsea",
         pick: "1",
         odd: "2.00",
         result: "2-0",
@@ -313,13 +313,13 @@ const ticketAchievedOne = [
         date: "10-12-2022",
     },
     {   
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
+        homeTwelve: "Kortrijk",
+        awayTwelve: "Antwerp",
+        Twelve: "1X",
+        oddTwelve: "2.07",
+        resultTwelve: "2-1",
+        statusTwelve: "won",
+        dateTwelve: "02-09-2022",
     }
 ];
 
@@ -374,6 +374,7 @@ let tableData = ticketAchieved.map((table)=>{
             <td class="status-won">${table.status}</td>
         </tr>
     </table>
+    
 </div>
     `
 })
