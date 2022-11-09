@@ -12,6 +12,7 @@ let right = document.querySelector(".right-icon");
  let freeViewMore = document.querySelector(".freeviewmore")
  let containerFifteenViewmoreWrapper = document.querySelector(".container-fifteen-viewmore-wrapper");
  let freeViewMoreTips = document.querySelector(".free-view-more-ticket")
+//  let containerFifteenContainer = document.querySelector(".container-fifteen-viewmore-wrapper")
 
  
 
@@ -209,351 +210,403 @@ var x = setInterval(() => {
 }, 1000);
 
 
-const ticketAchieved = [
-    {
-        home: "Kortrijk",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },  
-    { 
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },   
-    {
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },
-    {    
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },
-    {
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },
-    {   
-        homeTwelve: "Kortrijk",
-        away: "Antwerp",
-        pick: "1X",
-        odd: "2.07",
-        result: "2-1",
-        status: "won",
-        date: "02-09-2022",
-    }
-];
+// const ticketAchieved = [
+//     {
+//         home: "Kortrijk",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },  
+//     { 
+//         homeOne: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },   
+//     {
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },
+//     {    
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },
+//     {
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },
+//     {   
+//         homeTwelve: "Kortrijk",
+//         away: "Antwerp",
+//         pick: "1X",
+//         odd: "2.07",
+//         result: "2-1",
+//         status: "won",
+//         date: "02-09-2022",
+//     }
+// ];
 
-const ticketAchievedOne = [
-    {
-        home: "liverpool",
-        away: "cheresea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },  
-    { 
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "11-12-2022",
-    },   
-    {
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "12-12-2022",
-    },
-    {    
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },
-    {
-        home: "rrriverpool",
-        away: "fffhelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },
-    {   
-        homeTwelve: "Kortrijk",
-        awayTwelve: "Antwerp",
-        Twelve: "1X",
-        oddTwelve: "2.07",
-        resultTwelve: "2-1",
-        statusTwelve: "won",
-        dateTwelve: "02-09-2022",
-    }
-];
+// const ticketAchievedOne = [
+//     {
+//         home: "liverpool",
+//         away: "cheresea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },  
+//     { 
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "11-12-2022",
+//     },   
+//     {
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "12-12-2022",
+//     },
+//     {    
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },
+//     {
+//         home: "rrriverpool",
+//         away: "fffhelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },
+//     {   
+//         homeTwelve: "Kortrijk",
+//         awayTwelve: "Antwerp",
+//         Twelve: "1X",
+//         oddTwelve: "2.07",
+//         resultTwelve: "2-1",
+//         statusTwelve: "won",
+//         dateTwelve: "02-09-2022",
+//     }
+// ];
 
-let tableData = ticketAchieved.map((table)=>{
-    return `
-    <div class="container-ten">
-    <table>
-        <caption>TOTAL ODD: 150</caption>
-        <tr>
-            <th>date</th>
-            <th>home</th>
-            <th>away</th>
-            <th>pick</th>
-            <th>odd</th>
-            <th>result</th>
-            <th>status</th>
-        </tr>
-        <tr>
-            <td>${table.date}</td>
-            <td>${table.home}</td>
-            <td>${table.away}</td>
-            <td>${table.pick}</td>
-            <td>${table.odd}</td>
-            <td>${table.result}</td>
-            <td class="status-won">${table.status}</td>
-        </tr>
-        <tr>
-            <td>${table.date}</td>
-            <td>${table.home}</td>
-            <td>${table.away}</td>
-            <td>${table.pick}</td>
-            <td>${table.odd}</td>
-            <td>${table.result}</td>
-        <td class="status-won">${table.status}</td>
-        </tr>
-        <tr>
-            <td>${table.date}</td>
-            <td>${table.home}</td>
-            <td>${table.away}</td>
-            <td>${table.pick}</td>
-            <td>${table.odd}</td>
-            <td>${table.result}</td>
-            <td class="status-won">${table.status}</td>
-        </tr>
-        <tr>
-            <td>${table.date}</td>
-            <td>${table.home}</td>
-            <td>${table.away}</td>
-            <td>${table.pick}</td>
-            <td>${table.odd}</td>
-            <td>${table.result}</td>
-            <td class="status-won">${table.status}</td>
-        </tr>
-    </table>
+// let tableData = ticketAchieved.map((table)=>{
+//     return `
+//     <div class="container-ten">
+//     <table>
+//         <caption>TOTAL ODD: 150</caption>
+//         <tr>
+//             <th>date</th>
+//             <th>home</th>
+//             <th>away</th>
+//             <th>pick</th>
+//             <th>odd</th>
+//             <th>result</th>
+//             <th>status</th>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//         <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//     </table>
     
-</div>
-    `
-})
-
-let containerTenWrapper = document.querySelector(".container-ten-wrapper")
-containerTenWrapper.innerHTML = `${tableData.join(" ")}`;
-
-
-let tableDateOne = ticketAchievedOne.map((table)=>{
-    return `
-    <div class="container-ten">
-    <table>
-        <caption>TOTAL ODD: 150</caption>
-        <tr>
-            <th>date</th>
-            <th>home</th>
-            <th>away</th>
-            <th>pick</th>
-            <th>odd</th>
-            <th>result</th>
-            <th>status</th>
-        </tr>
-        <tr>
-            <td>${table.date}</td>
-            <td>${table.home}</td>
-            <td>${table.away}</td>
-            <td>${table.pick}</td>
-            <td>${table.odd}</td>
-            <td>${table.result}</td>
-            <td class="status-won">${table.status}</td>
-        </tr>
-        <tr>
-            <td>${table.date}</td>
-            <td>${table.home}</td>
-            <td>${table.away}</td>
-            <td>${table.pick}</td>
-            <td>${table.odd}</td>
-            <td>${table.result}</td>
-        <td class="status-won">${table.status}</td>
-        </tr>
-        <tr>
-            <td>${table.date}</td>
-            <td>${table.home}</td>
-            <td>${table.away}</td>
-            <td>${table.pick}</td>
-            <td>${table.odd}</td>
-            <td>${table.result}</td>
-            <td class="status-won">${table.status}</td>
-        </tr>
-        <tr>
-            <td>${table.date}</td>
-            <td>${table.home}</td>
-            <td>${table.away}</td>
-            <td>${table.pick}</td>
-            <td>${table.odd}</td>
-            <td>${table.result}</td>
-            <td class="status-won">${table.status}</td>
-        </tr>
-    </table>
+// </div>
+//     <div class="container-ten">
+//     <table>
+//         <caption>TOTAL ODD: 150</caption>
+//         <tr>
+//             <th>date</th>
+//             <th>home</th>
+//             <th>away</th>
+//             <th>pick</th>
+//             <th>odd</th>
+//             <th>result</th>
+//             <th>status</th>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//         <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//     </table>
     
-</div>
-    `
-})
+// </div>
+//     `
+// })
+
+// let containerTenWrapper = document.querySelector(".container-ten-wrapper")
+// containerTenWrapper.innerHTML = `${tableData.join(" ")}`;
+
+
+// let tableDateOne = ticketAchievedOne.map((table)=>{
+//     return `
+//     <div class="container-ten">
+//     <table>
+//         <caption>TOTAL ODD: 150</caption>
+//         <tr>
+//             <th>date</th>
+//             <th>home</th>
+//             <th>away</th>
+//             <th>pick</th>
+//             <th>odd</th>
+//             <th>result</th>
+//             <th>status</th>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//         <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//         <tr>
+//             <td>${table.date}</td>
+//             <td>${table.home}</td>
+//             <td>${table.away}</td>
+//             <td>${table.pick}</td>
+//             <td>${table.odd}</td>
+//             <td>${table.result}</td>
+//             <td class="status-won">${table.status}</td>
+//         </tr>
+//     </table>
+    
+// </div>
+//     `
+// })
 
 let containerTwelve = document.querySelector(".container-twelve-wrapper");
 let containerTwelves = document.querySelector(".container-twelve");
-containerTwelves.innerHTML = tableDateOne.join(" ");
+// containerTwelves.innerHTML = tableDateOne.join(" ");
 
 viewMore.addEventListener("click", ()=>{
     containerTwelve.style.display = "block";
     containerElevenWrapper.style.display = "none";
+    viewMore.style.display = "none";
 })
 
 
-const freeTicket = [
-    {
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },  
-    { 
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },   
-    {
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },
-    {    
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },
-    {
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    },
-    {   
-        home: "liverpool",
-        away: "chelsea",
-        pick: "1",
-        odd: "2.00",
-        result: "2-0",
-        status: "won",
-        date: "10-12-2022",
-    }
-];
+// const freeTicket = [
+//     {
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },  
+//     { 
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },   
+//     {
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },
+//     {    
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },
+//     {
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     },
+//     {   
+//         home: "liverpool",
+//         away: "chelsea",
+//         pick: "1",
+//         odd: "2.00",
+//         result: "2-0",
+//         status: "won",
+//         date: "10-12-2022",
+//     }
+// ];
 
-let freeTicketDisplay = freeTicket.map((table)=>{
-    return`
-            <div class="free-tips-container">
-                <table>
-                    <caption>total 0dd: 3.50</caption>
-                    <tr>
-                        <th>date</th>
-                        <th>home</th>
-                        <th>away</th>
-                        <th>pick</th>
-                        <th>odd</th>
-                        <th>result</th>
-                        <th>status</th>
-                    </tr>
-                    <tr>
-                        <td>${table.date}</td>
-                        <td>${table.home}</td>
-                        <td>${table.away}</td>
-                        <td>${table.pick}</td>
-                        <td>${table.odd}</td>
-                        <td>${table.result}</td>
-                        <td class="status-won">${table.status}</td>
-                    </tr>
-                    <tr>
-                        <td>${table.date}</td>
-                        <td>${table.home}</td>
-                        <td>${table.away}</td>
-                        <td>${table.pick}</td>
-                        <td>${table.odd}</td>
-                        <td>${table.result}</td>
-                        <td class="status-won">${table.status}</td>
-                    </tr>
-                    <tr>
-                        <td>${table.date}</td>
-                        <td>${table.home}</td>
-                        <td>${table.away}</td>
-                        <td>${table.pick}</td>
-                        <td>${table.odd}</td>
-                        <td>${table.result}</td>
-                        <td class="status-won">${table.status}</td>
-                    </tr>
-                </table>
-            </div>
-    `
-})
+// let freeTicketDisplay = freeTicket.map((table)=>{
+//     return`
+//             <div class="free-tips-container">
+//                 <table>
+//                     <caption>total 0dd: 3.50</caption>
+//                     <tr>
+//                         <th>date</th>
+//                         <th>home</th>
+//                         <th>away</th>
+//                         <th>pick</th>
+//                         <th>odd</th>
+//                         <th>result</th>
+//                         <th>status</th>
+//                     </tr>
+//                     <tr>
+//                         <td>${table.date}</td>
+//                         <td>${table.home}</td>
+//                         <td>${table.away}</td>
+//                         <td>${table.pick}</td>
+//                         <td>${table.odd}</td>
+//                         <td>${table.result}</td>
+//                         <td class="status-won">${table.status}</td>
+//                     </tr>
+//                     <tr>
+//                         <td>${table.date}</td>
+//                         <td>${table.home}</td>
+//                         <td>${table.away}</td>
+//                         <td>${table.pick}</td>
+//                         <td>${table.odd}</td>
+//                         <td>${table.result}</td>
+//                         <td class="status-won">${table.status}</td>
+//                     </tr>
+//                     <tr>
+//                         <td>${table.date}</td>
+//                         <td>${table.home}</td>
+//                         <td>${table.away}</td>
+//                         <td>${table.pick}</td>
+//                         <td>${table.odd}</td>
+//                         <td>${table.result}</td>
+//                         <td class="status-won">${table.status}</td>
+//                     </tr>
+//                 </table>
+//             </div>
+//     `
+// })
 
-let freeTicketDisplayTips = document.querySelector(".container-fifteen-table-wrapper");
-freeTicketDisplayTips.innerHTML = freeTicketDisplay.join(" ");
+// let freeTicketDisplayTips = document.querySelector(".container-fifteen-table-wrapper");
+// freeTicketDisplayTips.innerHTML = freeTicketDisplay.join(" ");
 
 
 const moreFreeTicket = [
@@ -613,61 +666,63 @@ const moreFreeTicket = [
     }
 ];
 
-let moreTicketDisplay = moreFreeTicket.map((table)=>{
-    return `
+// let moreTicketDisplay = moreFreeTicket.map((table)=>{
+//     return `
     
-            <div class="moreticketdisplay">
+//             <div class="moreticketdisplay">
             
-                <table>
-                <caption>total 0dd: 3.50</caption>
-                <tr>
-                    <th>date</th>
-                    <th>home</th>
-                    <th>away</th>
-                    <th>pick</th>
-                    <th>odd</th>
-                    <th>result</th>
-                    <th>status</th>
-                </tr>
-                <tr>
-                    <td>${table.date}</td>
-                    <td>${table.home}</td>
-                    <td>${table.away}</td>
-                    <td>${table.pick}</td>
-                    <td>${table.odd}</td>
-                    <td>${table.result}</td>
-                    <td class="status-won">${table.status}</td>
-                </tr>
-                <tr>
-                    <td>${table.date}</td>
-                    <td>${table.home}</td>
-                    <td>${table.away}</td>
-                    <td>${table.pick}</td>
-                    <td>${table.odd}</td>
-                    <td>${table.result}</td>
-                    <td class="status-won">${table.status}</td>
-                </tr>
-                <tr>
-                    <td>${table.date}</td>
-                    <td>${table.home}</td>
-                    <td>${table.away}</td>
-                    <td>${table.pick}</td>
-                    <td>${table.odd}</td>
-                    <td>${table.result}</td>
-                    <td class="status-won">${table.status}</td>
-                </tr>
-                </table>
+//                 <table>
+//                 <caption>total 0dd: 3.50</caption>
+//                 <tr>
+//                     <th>date</th>
+//                     <th>home</th>
+//                     <th>away</th>
+//                     <th>pick</th>
+//                     <th>odd</th>
+//                     <th>result</th>
+//                     <th>status</th>
+//                 </tr>
+//                 <tr>
+//                     <td>${table.date}</td>
+//                     <td>${table.home}</td>
+//                     <td>${table.away}</td>
+//                     <td>${table.pick}</td>
+//                     <td>${table.odd}</td>
+//                     <td>${table.result}</td>
+//                     <td class="status-won">${table.status}</td>
+//                 </tr>
+//                 <tr>
+//                     <td>${table.date}</td>
+//                     <td>${table.home}</td>
+//                     <td>${table.away}</td>
+//                     <td>${table.pick}</td>
+//                     <td>${table.odd}</td>
+//                     <td>${table.result}</td>
+//                     <td class="status-won">${table.status}</td>
+//                 </tr>
+//                 <tr>
+//                     <td>${table.date}</td>
+//                     <td>${table.home}</td>
+//                     <td>${table.away}</td>
+//                     <td>${table.pick}</td>
+//                     <td>${table.odd}</td>
+//                     <td>${table.result}</td>
+//                     <td class="status-won">${table.status}</td>
+//                 </tr>
+//                 </table>
             
-            </div>
-    `
-})
+//             </div>
+//     `
+// })
 
 let freeViewMoreTicket = document.querySelector(".free-view-more-ticket")
-freeViewMoreTicket.innerHTML = moreTicketDisplay.join(" ")
+let containerFifteenContainer = document.querySelector(".container-fifteen-viewmore-wrapper")
+
+// freeViewMoreTicket.innerHTML = moreTicketDisplay.join(" ")
 
 
 freeViewMore.addEventListener("click", ()=>{
-    freeViewMoreTips.style.display = "block";
+    freeViewMoreTicket.style.display = "block";
    containerFifteenViewmoreWrapper.style.display = "none";
    
 })
