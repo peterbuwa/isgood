@@ -40,7 +40,7 @@
 .slide-one {width:100%; height:20%;border-bottom: 3px dotted grey;  background-color:hsl(60, 22%, 10%) ; border-bottom-left-radius:30px ; }
 .slide-two {width:100%; height:20%;border-bottom: 3px dotted grey;  background-color:hsl(60, 22%, 10%) ; border-bottom-right-radius:30px ; }
 .slider-container, .slider-container-content-one {width:100%; height:100%;}
-.slider-span {background-color:green;  text-transform: uppercase; padding:0 10px; margin:0; font-size: 14px; color: blanchedalmond;}
+.slider-span {background-color:green;  text-transform: uppercase; padding:1px 5px; margin:0; color: blanchedalmond; font-weight: bold;}
 .slider-container-content .left-icon, .slider-container-content .right-icon {cursor:pointer; font-size: 30px; position: absolute;top:40%; z-index: 2; color:gray;}
 /* .slider-container-content .left-icon:hover {box-shadow: 1px 1px 1px rgb(32, 28, 28);} */
 .slider-container-content-one {position: relative;}
@@ -60,7 +60,7 @@
 .table-slider table caption {background-color: hsl(60, 22%, 10%); color:white; text-transform:uppercase; font-size: 14px;}
 .table-slider table th {background-color: blanchedalmond; color:black; font-size: 13px; text-align: center; padding:0 0 0 4px;}
 .table-slider table td { font-size: 13px; text-transform: capitalize;}
-.table-slider table tr, .table-slider table td {border:1px solid black; background-color: #10100a; color: white;}
+.table-slider table tr, .table-slider table td {border:1px solid black; background-color: green; color: white;}
 .table-slider table{border:1px solid gray; border-collapse: collapse; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;}
 
         /* container three start here */
@@ -167,11 +167,13 @@
 
 .container-ten table th{padding:3px 0;text-transform: uppercase; font-size: 12px; text-align: center; background-color: blanchedalmond; color: black;}
 .container-ten table {width:100%; font-family: Arial, Helvetica, sans-serif; padding: 0 0 15px 0;}
-.container-ten table caption {color:white; font-size: 20px; padding:30px 0 0 0;}
+.container-ten table caption {color:white; font-size: 20px; padding:10px 0 8px 0;}
 .container-ten-wrapper {background-color: hsl(60, 23%, 5%); width:100%; }
-.container-ten table td  {text-transform: capitalize; background-color:black; color:white; font-size: 12px; text-align: center; padding:5px 0;}
+.container-ten table td  {text-transform: capitalize; background-color:green; color:white; font-size: 10px; text-align: center; padding:5px 0;}
 .container-ten table .status-won {background-color: blanchedalmond; color: green; font-weight: bold;}
-.container-ten {background-color: hsl(60, 23%, 5%); }
+.container-ten {background-color: hsl(60, 23%, 5%); padding:25px 0 0 0;}
+.slider-spans {background-color: green; color:white; padding:1px 10px;}
+.container-ten-extension{padding:0 0 25px 0;}
 
             /* container-eleven-starts-here */
 
@@ -182,6 +184,9 @@
                 /* container-twelve-starts her */
 
 .container-twelve-wrapper  {background-color:hsl(60, 23%, 5%); display: none;}
+.container-ten table .lost {background-color:blanchedalmond;}
+.container-ten table .lost-caption{background-color:red; color:white; padding:1px 10px;}
+#lost-game td{background-color: red;}
 
                 /* container-thirteen-starts-here */
 
@@ -221,14 +226,16 @@
  .container-fifteen-background-two {background-color: hsl(60, 23%, 5%); } 
  .container-fifteen-table-wrapper {background-color: hsl(60, 23%, 5%); color:white;}
  .free-tips-container table, .container-fifteen-free-table table, .moreticketdisplay table{width:100%; font-family: 'Open Sans', sans-serif; text-align: center;}
- .free-tips-container table caption, .container-fifteen-free-table table caption, .moreticketdisplay table caption {text-transform: capitalize; padding:30px 0 0 0;}
+ .free-tips-container table caption, .container-fifteen-free-table table caption, .moreticketdisplay table caption {text-transform: capitalize; padding: 30px 0 8px 0;}
  .free-tips-container table th, .container-fifteen-free-table th, .moreticketdisplay table th {text-transform: uppercase; background-color: blanchedalmond; color:black; font-size: 12px; padding:3px 0; font-weight: bold;}
- .free-tips-container table td, .container-fifteen-free-table table td, .moreticketdisplay table td {text-transform: capitalize; background-color:black; color:white; font-size: 12px;  padding:3px 0;}
+ .free-tips-container table td, .container-fifteen-free-table table td, .moreticketdisplay table td {text-transform: capitalize; background-color:green; color:white; font-size: 10px;  padding:3px 0;}
 /* .free-tips-container {padding:10px 0;} */
 .container-fifteen-free-container {background-color: hsl(60, 23%, 5%); color:white;}
 .free-tips-container table .status-won, .moreticketdisplay .status-won {background-color: blanchedalmond; color: green; font-weight: bold;}
  .free-tips-container table, .free-tips-container table td, .free-tips-container table th {border:2px solid #10100a; border-collapse: collapse;}
 .container-fifteen-viewmore-wrapper .freeviewmore {opacity: 0.7; border-radius: 20px; cursor: pointer; transition: 0.5s;color: white;font-size: 12px;width: 80px; text-align: right; text-align: center; background-color: grey; text-transform: capitalize;font-family: 'Courier New', Courier, monospace;}
+.free-tips-container table .lost{background-color:blanchedalmond; color:white;}
+.free-tips-container .lost-caption {background-color: red; color:white; padding:1px 5px; font-weight:bold;}
 .container-fifteen-viewmore-container {background-color: hsl(60, 23%, 5%); color:white;}
 .container-fifteen-viewmore-wrapper {display: flex; justify-content: end; padding:7px 5px;}
 .container-fifteen-viewmore-wrapper .freeviewmore:hover {opacity:1;}
@@ -326,7 +333,7 @@
     
       /* container-ten-and-container-twelve-starts-here */
 
-.container-ten table td, .container-twelve-wrapper .container-ten table td  {font-size: 14px;}
+.container-ten table td, .container-twelve-wrapper .container-ten table td  {font-size: 12px;}
 .container-ten { width: 90%; margin: auto; }
 
                 /* container thirteen starts here */
@@ -359,7 +366,7 @@
             /* free tips starts here */
 
 .free-tips-container table, .container-fifteen-free-table table, .moreticketdisplay table { width: 90%; margin: auto;}
-.free-tips-container table td, .container-fifteen-free-table table td, .moreticketdisplay table td {font-size: 14px; padding: 5px 0; }
+.free-tips-container table td, .container-fifteen-free-table table td, .moreticketdisplay table td {font-size: 12px; padding: 5px 0; }
 .free-tips-container table th, .container-fifteen-free-table th, .moreticketdisplay table th {font-size: 12px; padding: 5px 0;}
 
 
@@ -570,8 +577,8 @@
 .container-ten-wrapper, .container-twelve{display: flex; flex-wrap: wrap; justify-content: space-between; width:100%;}
 .container-ten {width: 43%; margin: auto; }
 .container-ten table th {padding: 3px; font-size: 12px;}
-.container-ten table td, .container-twelve-wrapper .container-ten table td {font-size: 12px; padding:15px 0;}
-.container-ten table {width:45%;}
+.container-ten table td, .container-twelve-wrapper .container-ten table td {font-size: 11px; padding:15px 0;}
+.container-ten table {width:48%;}
 .container-ten {width: 100%; display: flex; flex-wrap: wrap; justify-content: space-around}
 
             /* container thirteen starts here */
@@ -664,7 +671,7 @@
 
           /* free tips starts here */
 
-.free-tips-container table caption, .container-fifteen-free-table table caption, .moreticketdisplay table caption { padding: 50px 0 0 0;}
+/* .free-tips-container table caption, .container-fifteen-free-table table caption, .moreticketdisplay table caption { padding: 50px 0 0 0;} */
 
 }
 
