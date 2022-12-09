@@ -185,7 +185,7 @@
 
 .container-twelve-wrapper  {background-color:hsl(60, 23%, 5%); display: none;}
 .container-ten table .lost {background-color:blanchedalmond;}
-.container-ten table .lost-caption{background-color:red; color:white; padding:1px 10px;}
+.container-ten table .lost-caption{background-color:red; color:white; padding:1px 10px; font-weight:bold;}
 #lost-game td{background-color: red;}
 
                 /* container-thirteen-starts-here */
