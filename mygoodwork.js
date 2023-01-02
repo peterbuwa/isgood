@@ -14,7 +14,7 @@ let right = document.querySelector(".right-icon");
  let freeViewMoreTips = document.querySelector(".free-view-more-ticket")
 //  let containerFifteenContainer = document.querySelector(".container-fifteen-viewmore-wrapper")
 let homeList = document.querySelector(".home-list");
-let freeTips = document.querySelector(".free-tips-list");
+let freeTips = document.querySelector(".free-tips");
 let ticketList = document.querySelector(".ticket-list")
 
  
