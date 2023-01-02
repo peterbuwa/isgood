@@ -13,9 +13,50 @@ let right = document.querySelector(".right-icon");
  let containerFifteenViewmoreWrapper = document.querySelector(".container-fifteen-viewmore-wrapper");
  let freeViewMoreTips = document.querySelector(".free-view-more-ticket")
 //  let containerFifteenContainer = document.querySelector(".container-fifteen-viewmore-wrapper")
+let homeList = document.querySelector(".home-list");
+let freeTips = document.querySelector(".free-tips-list");
+let ticketList = document.querySelector(".ticket-list")
 
  
 
+home.addEventListener("click", ()=>{
+    homeList.style.backgroundColor = "rgb(51, 50, 52)";
+    home.style.color = "white";
+    home.style.textTransform = "uppercase";
+    ticketList.style.backgroundColor = "#151515";
+    ticket.style.color = "white";
+    ticket.style.textTransform = "capitalize";
+    freeTips.style.backgroundColor = "#151515";
+    free.style.textTransform = "capitalize"
+})
+
+ticket.addEventListener("click", ()=>{
+    ticketList.style.backgroundColor = "rgb(51, 50, 52)";
+    ticket.style.color = "white";
+    ticket.style.textTransform = "uppercase"
+    home.style.color = "white";
+    homeList.style.backgroundColor = "#151515";
+    freeTips.style.backgroundColor = "#151515";
+    free.style.textTransform = "capitalize";
+    home.style.textTransform = "capitalize";
+})
+
+free.addEventListener("click", ()=>{
+    freeTips.style.backgroundColor = "rgb(51, 50, 52)";
+    free.style.color = "white"
+    free.style.textTransform = "uppercase"
+    home.style.color = "white";
+    homeList.style.backgroundColor = "#151515";
+    ticketList.style.backgroundColor = "#151515";
+    ticketList.style.color = "white";
+    home.style.textTransform = "capitalize";
+    home.style.textTransform = "capitalize";
+    ticket.style.textTransform = "capitalize";
+})
+
+// homeList.addEventListener("mouseover", ()=>{
+//     homeList.style.backgroundColor = "white";
+// })
 
 bars.addEventListener("click", function () {
     if (bars.classList.contains("fa-bars")) {
@@ -121,7 +162,7 @@ right.addEventListener("click", function () {
     }
 })
 
-var countDownDate = new Date("July 1, 2022 15:37:25").getTime();
+var countDownDate = new Date("Jan 2, 2023 16:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDate - now;
@@ -139,7 +180,7 @@ var x = setInterval(() => {
 }, 1000);
 
 
-var countDownDates = new Date("oct 5, 2022 15:37:25").getTime();
+var countDownDates = new Date("Jan 2, 2022 16:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDates - now;
@@ -157,7 +198,7 @@ var x = setInterval(() => {
 }, 1000);
 
 
-var countDownDatesOne = new Date("July 1, 2022 15:37:25").getTime();
+var countDownDatesOne = new Date("Jan 2, 2023 23:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDatesOne - now;
@@ -174,7 +215,7 @@ var x = setInterval(() => {
     }
 }, 1000);
 
-var countDownDatesTwo = new Date("July 1, 2022 15:37:25").getTime();
+var countDownDatesTwo = new Date("Jan 2, 2023 16:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDatesTwo - now;
@@ -192,7 +233,7 @@ var x = setInterval(() => {
 }, 1000);
 
 
-var countDownDatesTwo = new Date("July 1, 2022 15:37:25").getTime();
+var countDownDatesTwo = new Date("Jan 2, 2022 23:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDatesTwo - now;
