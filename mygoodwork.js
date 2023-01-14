@@ -162,7 +162,7 @@ right.addEventListener("click", function () {
     }
 })
 
-var countDownDate = new Date("Jan 12, 2023 21:00:00").getTime();
+var countDownDate = new Date("Jan 15, 2023 23:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDate - now;
@@ -198,7 +198,7 @@ var x = setInterval(() => {
 }, 1000);
 
 
-var countDownDatesOne = new Date("Jan 12, 2023 12:00:00").getTime();
+var countDownDatesOne = new Date("Jan 15, 2023 20:45:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDatesOne - now;
