@@ -162,7 +162,7 @@ right.addEventListener("click", function () {
     }
 })
 
-var countDownDate = new Date("Jan 17, 2023 20:45:00").getTime();
+var countDownDate = new Date("Jan 20, 2023 20:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDate - now;
@@ -198,7 +198,7 @@ var x = setInterval(() => {
 }, 1000);
 
 
-var countDownDatesOne = new Date("Jan 17, 2023 19:00:00").getTime();
+var countDownDatesOne = new Date("Jan 20, 2023 18:30:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
     var distance = countDownDatesOne - now;
@@ -218,7 +218,7 @@ var x = setInterval(() => {
 var countDownDatesTwo = new Date("Jan 2, 2023 16:00:00").getTime();
 var x = setInterval(() => {
     var now = new Date().getTime();
-    var distance = countDownDatesTwo - now;
+    var distance = countDownDatesTwo - now;``
     var days = Math.floor(distance / (1000 * 60 * 60 * 24));
     var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
     var minutes = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
